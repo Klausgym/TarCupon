@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ═══════════════════════════════════════════════
+       PRIMARY SEO — controls the Google snippet
+  ═══════════════════════════════════════════════ -->
+  <title>TarCupon.com - Official Website | Claim $500 Target</title>
+  <meta name="description" content="Claim your $500 Target gift card on TarCupon.com. Complete a few simple steps to verify eligibility and receive your reward. Limited availability — apply now." />
+  <meta name="keywords" content="TarCupon, Target gift card, $500 Target, claim gift card, Target coupon, free gift card" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://tarcupon.com/" />
+
+  <!-- ═══════════════════════════════════════════════
+       OPEN GRAPH — Facebook / social sharing
+  ═══════════════════════════════════════════════ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TarCupon.com" />
+  <meta property="og:url" content="https://tarcupon.com/" />
+  <meta property="og:title" content="TarCupon.com - Official Website | Claim $500 Target" />
+  <meta property="og:description" content="Claim your $500 Target gift card on TarCupon.com. Complete a few simple steps to verify eligibility and receive your reward." />
+  <meta property="og:image" content="https://i.pinimg.com/474x/79/aa/9e/79aa9e21b183c4abfdfd164710369abc.jpg" />
+  <meta property="og:image:alt" content="$500 Target Gift Card — TarCupon.com" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- ═══════════════════════════════════════════════
+       TWITTER CARD
+  ═══════════════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TarCupon.com - Official Website | Claim $500 Target" />
+  <meta name="twitter:description" content="Claim your $500 Target gift card on TarCupon.com. Complete a few simple steps to verify eligibility and receive your reward." />
+  <meta name="twitter:image" content="https://i.pinimg.com/474x/79/aa/9e/79aa9e21b183c4abfdfd164710369abc.jpg" />
+
+  <!-- ═══════════════════════════════════════════════
+       STRUCTURED DATA — JSON-LD (rich results)
+  ═══════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TarCupon.com",
+    "alternateName": "TarCupon - Official Website",
+    "url": "https://tarcupon.com/",
+    "description": "Claim your $500 Target gift card on TarCupon.com. Complete a few simple steps to verify eligibility and receive your reward."
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Offer",
+    "name": "$500 Target Gift Card",
+    "description": "Claim a $500 Target gift card by completing a few required steps on TarCupon.com.",
+    "url": "https://tarcupon.com/",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/LimitedAvailability",
+    "seller": {
+      "@type": "Organization",
+      "name": "TarCupon.com",
+      "url": "https://tarcupon.com/"
+    }
+  }
+  </script>
+
+  <!-- ═══════════════════════════════════════════════
+       FONTS & STYLES
+  ═══════════════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --t-red:#CC0000;
+      --t-red-dark:#A80000;
+      --bg:#ffffff;
+      --surface:#f6f7f9;
+      --border:#e5e7eb;
+      --text:#111827;
+      --muted:#6b7280;
+      --shadow:0 18px 50px rgba(2,6,23,.10);
+      --shadow2:0 18px 55px rgba(204,0,0,.18);
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      background:
+        radial-gradient(1200px 520px at 50% 20%, rgba(204,0,0,.10), transparent 60%),
+        var(--bg);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      line-height:1.45;
+    }
+
+    .page{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px 16px 92px;
+    }
+
+    .card{
+      width:100%;
+      max-width:390px;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:22px;
+      box-shadow:var(--shadow);
+      overflow:hidden;
+      text-align:center;
+    }
+
+    .topbar{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:10px;
+      padding:12px 14px;
+      background:rgba(204,0,0,.04);
+      border-bottom:1px solid var(--border);
+      flex-wrap:wrap;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:7px 10px;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid var(--border);
+      font-size:12px;
+      color:var(--muted);
+      white-space:nowrap;
+    }
+    .dot{
+      width:8px;height:8px;border-radius:50%;
+      background:var(--t-red);
+      box-shadow:0 0 0 4px rgba(204,0,0,.12);
+    }
+
+    .gift-area{
+      padding:16px 16px 10px;
+      background:linear-gradient(180deg, rgba(204,0,0,.06), transparent 70%);
+    }
+
+    .giftwrap{
+      position:relative;
+      width:100%;
+      max-width:420px;
+      margin:0 auto;
+    }
+    .giftwrap img{
+      width:100%;
+      height:auto;
+      border-radius:16px;
+      display:block;
+      box-shadow:0 16px 40px rgba(2,6,23,.14);
+    }
+
+    .value{
+      position:absolute;
+      top:12px;
+      left:14px;
+      color:#ffffff;
+      font-size:28px;
+      font-weight:1000;
+      text-shadow:0 2px 6px rgba(0,0,0,.45);
+      user-select:none;
+      background:none;
+      padding:0;
+    }
+    .value sup{
+      font-size:14px;
+      position:relative;
+      top:-0.45em;
+      margin-right:1px;
+    }
+
+    .steps{
+      margin:14px 0 0;
+      padding:0 0 6px;
+      text-align:left;
+    }
+
+    .steps-header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding:0 2px 10px;
+    }
+    .steps-title{
+      font-size:13px;
+      font-weight:900;
+      letter-spacing:-.01em;
+    }
+    .steps-note{
+      font-size:11px;
+      color:var(--muted);
+      white-space:nowrap;
+    }
+
+    .step-list{
+      display:grid;
+      gap:10px;
+    }
+
+    .step{
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+      padding:12px;
+      border:1px solid var(--border);
+      border-radius:16px;
+      background:var(--surface);
+    }
+
+    .num{
+      width:26px;
+      height:26px;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:12px;
+      font-weight:900;
+      color:var(--text);
+      flex:0 0 auto;
+      margin-top:1px;
+    }
+
+    .step-main{
+      font-size:13px;
+      font-weight:800;
+      line-height:1.25;
+      margin:0;
+    }
+    .step-sub{
+      margin:4px 0 0;
+      font-size:12px;
+      color:var(--muted);
+      line-height:1.35;
+    }
+
+    .cta-wrap{
+      padding:14px 16px 16px;
+      display:grid;
+      gap:10px;
+    }
+
+    .cta{
+      width:100%;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:14px 16px;
+      border-radius:999px;
+      background:var(--t-red);
+      color:#fff;
+      font-weight:900;
+      text-transform:uppercase;
+      letter-spacing:.05em;
+      font-size:14px;
+      text-decoration:none;
+      box-shadow:var(--shadow2);
+      transition:transform .08s ease, background .15s ease;
+    }
+    .cta:hover{ background:var(--t-red-dark); }
+    .cta:active{ transform:translateY(1px); }
+
+    .micro{
+      font-size:12px;
+      color:var(--muted);
+      line-height:1.4;
+      margin-top:2px;
+      text-align:left;
+    }
+    .micro b{ color:var(--text); }
+
+    .fine{
+      padding:0 16px 16px;
+      font-size:11px;
+      color:#9ca3af;
+      line-height:1.4;
+      text-align:left;
+    }
+
+    .sticky{
+      position:fixed;
+      left:0; right:0; bottom:0;
+      background:rgba(255,255,255,.92);
+      border-top:1px solid var(--border);
+      backdrop-filter:blur(10px);
+      padding:10px 12px;
+      display:flex;
+      justify-content:center;
+      z-index:50;
+    }
+    .sticky .cta{
+      max-width:390px;
+      margin:0;
+      padding:12px 14px;
+      font-size:13px;
+      width:100%;
+      box-shadow:0 14px 40px rgba(204,0,0,.18);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="card">
+
+      <div class="topbar">
+        <div class="pill"><span class="dot"></span> Complete the steps below to proceed</div>
+      </div>
+
+      <!-- h1 hidden visually but present for SEO crawlers -->
+      <h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">
+        TarCupon.com — Claim Your $500 Target Gift Card
+      </h1>
+
+      <div class="gift-area">
+        <div class="giftwrap" aria-label="Target $500 gift card">
+          <div class="value"><sup>$</sup>500</div>
+          <img
+            src="https://i.pinimg.com/474x/79/aa/9e/79aa9e21b183c4abfdfd164710369abc.jpg"
+            alt="$500 Target Gift Card — TarCupon.com"
+            width="420"
+            height="265"
+            loading="eager"
+          >
+        </div>
+
+        <div class="steps">
+          <div class="steps-header">
+            <div class="steps-title">Quick Start Guide</div>
+            <div class="steps-note">Takes only a few minutes</div>
+          </div>
+
+          <div class="step-list">
+            <div class="step">
+              <div class="num">1</div>
+              <div>
+                <p class="step-main">Click "Apply Now"</p>
+                <p class="step-sub">Start the offer flow and confirm eligibility.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="num">2</div>
+              <div>
+                <p class="step-main">Enter your email &amp; basic info</p>
+                <p class="step-sub">Use a valid email to receive updates and confirmation.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="num">3</div>
+              <div>
+                <p class="step-main">Complete 4–5 deals</p>
+                <p class="step-sub">Finish the required deals shown inside the offer.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="num">4</div>
+              <div>
+                <p class="step-main">Receive confirmation</p>
+                <p class="step-sub">Timing may vary based on verification and completion status.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-wrap">
+        <a class="cta"
+           href="https://linkthem.net/aff_c?offer_id=2746&aff_id=122650&source=tarcupon"
+           target="_blank"
+           rel="nofollow noopener"
+           aria-label="Apply now to claim your $500 Target gift card">
+          Apply Now →
+        </a>
+
+        <div class="micro">
+          <b>Required:</b> valid email • complete required deals • 18+.
+        </div>
+      </div>
+
+      <div class="fine">
+        This is a promotional landing page. Terms and eligibility requirements may apply.
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky CTA -->
+  <div class="sticky" aria-label="Sticky call to action">
+    <a class="cta"
+       href="https://linkthem.net/aff_c?offer_id=2746&aff_id=122650&source=tarcupon"
+       target="_blank"
+       rel="nofollow noopener"
+       aria-label="Apply now to claim your $500 Target gift card">
+      Apply Now
+    </a>
+  </div>
+</body>
+</html>
